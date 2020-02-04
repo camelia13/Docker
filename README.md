@@ -26,7 +26,7 @@ sudo chmod 666 /var/run/docker.sock
 # sudo chown root:docker /var/run/docker.sock
 ```
 
-그 이후는 아래의 코드로 도커 컨테이너를 사용할 수 있다.
+그 이후는 아래의 코드로 이미지를 받아 도커 컨테이너를 사용할 수 있다.
 ```shell
 docker pull image
 ```
