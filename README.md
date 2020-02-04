@@ -29,4 +29,10 @@ sudo chmod 666 /var/run/docker.sock
 그 이후는 아래의 코드로 이미지를 받아 도커 컨테이너를 사용할 수 있다.
 ```shell
 docker pull image
+docker run -it --name "{name}" image
+```
+다시 사용할 땐
+```shell
+sudo docker restart name
+sudo docker attach name
 ```
